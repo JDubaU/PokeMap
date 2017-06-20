@@ -13,6 +13,7 @@
 		C60D1AC11EF76437008089AD /* PokeMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C60D1ABF1EF76437008089AD /* PokeMap.xcdatamodeld */; };
 		C60D1AC31EF76437008089AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60D1AC21EF76437008089AD /* Assets.xcassets */; };
 		C60D1AC61EF76437008089AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60D1AC41EF76437008089AD /* LaunchScreen.storyboard */; };
+		C60D1ACF1EF766C2008089AD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60D1ACE1EF766C2008089AD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C60D1AC21EF76437008089AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C60D1AC51EF76437008089AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C60D1AC71EF76437008089AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C60D1ACE1EF766C2008089AD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C60D1ACF1EF766C2008089AD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				C60D1AB71EF76437008089AD /* PokeMap */,
 				C60D1AB61EF76437008089AD /* Products */,
+				C60D1ACD1EF766C2008089AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				C60D1ABF1EF76437008089AD /* PokeMap.xcdatamodeld */,
 			);
 			path = PokeMap;
+			sourceTree = "<group>";
+		};
+		C60D1ACD1EF766C2008089AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60D1ACE1EF766C2008089AD /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +318,7 @@
 				C60D1ACC1EF76437008089AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
