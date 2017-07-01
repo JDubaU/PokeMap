@@ -14,6 +14,8 @@
 		C60D1AC31EF76437008089AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60D1AC21EF76437008089AD /* Assets.xcassets */; };
 		C60D1AC61EF76437008089AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60D1AC41EF76437008089AD /* LaunchScreen.storyboard */; };
 		C60D1ACF1EF766C2008089AD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60D1ACE1EF766C2008089AD /* MapKit.framework */; };
+		C60D1AD11F034909008089AD /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60D1AD01F034909008089AD /* TableViewController.swift */; };
+		C60D1AD31F0719DA008089AD /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60D1AD21F0719DA008089AD /* CoreDataHelp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C60D1AC51EF76437008089AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C60D1AC71EF76437008089AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C60D1ACE1EF766C2008089AD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C60D1AD01F034909008089AD /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C60D1AD21F0719DA008089AD /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			children = (
 				C60D1AB81EF76437008089AD /* AppDelegate.swift */,
 				C60D1ABA1EF76437008089AD /* ViewController.swift */,
+				C60D1AD01F034909008089AD /* TableViewController.swift */,
+				C60D1AD21F0719DA008089AD /* CoreDataHelp.swift */,
 				C60D1ABC1EF76437008089AD /* Main.storyboard */,
 				C60D1AC21EF76437008089AD /* Assets.xcassets */,
 				C60D1AC41EF76437008089AD /* LaunchScreen.storyboard */,
@@ -155,6 +161,8 @@
 				C60D1ABB1EF76437008089AD /* ViewController.swift in Sources */,
 				C60D1AB91EF76437008089AD /* AppDelegate.swift in Sources */,
 				C60D1AC11EF76437008089AD /* PokeMap.xcdatamodeld in Sources */,
+				C60D1AD31F0719DA008089AD /* CoreDataHelp.swift in Sources */,
+				C60D1AD11F034909008089AD /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
