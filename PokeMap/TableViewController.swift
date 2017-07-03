@@ -13,12 +13,15 @@ class TableViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var mapButton: UIButton!
     
+    var caughtPokemon : [Pokemon] = []
+    var uncaughtPokemon : [Pokemon] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        addAllPokemon()
+        caughtPokemon = getAllCaughtPokemon()
+        uncaughtPokemon = getAllUncaughtPokemon()
 
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,6 +33,13 @@ class TableViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    func getAllCaughtPokemon() -> [Pokemon] {
+        return []
+    }
+    
+    func getAllUncaughtPokemon() -> [Pokemon] {
+        return []
+    }
 
     /*
     // MARK: - Navigation
